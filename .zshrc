@@ -1,3 +1,5 @@
+neofetch --color_blocks off | lolcat -a -s 33 -d 1 -t
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -109,7 +111,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias zshconfig="code ~/.zshrc"
 alias ls="nnn -de"
-alias top="bashtop"
+alias top="bpytop"
 alias authors="echo \"Augustin\nBégué\naugustin.begue\naugustin.begue@epita.fr\" > AUTHORS && cat AUTHORS"
 alias config='/usr/bin/git --git-dir=/home/abegue/.cfg/ --work-tree=/home/abegue'
 
@@ -145,5 +147,5 @@ n ()
     fi
 }
 
-neofetch
+
 
