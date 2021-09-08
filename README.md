@@ -1,5 +1,9 @@
 # Execute the script
 
+```sh
+curl -Lks https://raw.githubusercontent.com/augustinbegue/wsl-dotfiles/main/install.sh | /bin/zsh
+```
+
 # Or
 
 -   register the alias:
