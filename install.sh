@@ -1,6 +1,7 @@
 # install packages
 sudo pacman -Syy
 sudo pacman -S --needed git base-devel curl
+all
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
