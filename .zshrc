@@ -1,4 +1,4 @@
-neofetch --color_blocks off | lolcat -a -s 33 -d 1 -t
+neofetch --color_blocks off | lolcat -S 8500 -a -s 33 -d 1 -t
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -112,7 +112,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="code ~/.zshrc"
 alias ls="nnn -de"
 alias top="bpytop"
-alias authors="echo \"Augustin\nBégué\naugustin.begue\naugustin.begue@epita.fr\" > AUTHORS && cat AUTHORS"
+alias initpc="echo \"Augustin\nBégué\naugustin.begue\naugustin.begue@epita.fr\" > AUTHORS && echo \".vscode\nmain\n*.o\n.gitignore\" > .gitignore"
 alias config='/usr/bin/git --git-dir=/home/abegue/.cfg/ --work-tree=/home/abegue'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
