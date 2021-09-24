@@ -110,7 +110,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias zshconfig="code ~/.zshrc"
-alias ls="nnn -de"
+alias ls="n -de"
+alias nnn="n"
 alias top="bpytop"
 alias initpc="echo \"Augustin\nBégué\naugustin.begue\naugustin.begue@epita.fr\" > AUTHORS && echo \".vscode\nmain\n*.o\n.gitignore\" > .gitignore"
 alias config='/usr/bin/git --git-dir=/home/abegue/.cfg/ --work-tree=/home/abegue'
