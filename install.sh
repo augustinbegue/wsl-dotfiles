@@ -1,4 +1,4 @@
-git clone --bare git@github.com:augustinbegue/wsl-dotfiles.git $HOME/.cfg
+git clone --bare https://github.com/augustinbegue/wsl-dotfiles $HOME/.cfg
 function config {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
 }
